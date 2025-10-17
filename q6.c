@@ -20,7 +20,17 @@ int main(){
     int start=0;
     int end=0;
     // int
-    for(int i=0;i<strlen(space);i++){
+    for(int i=0;i<=count;i++){
+        // if(i==count){
+        //     for(int j=;j<=len;j++){
+        //     printf("%c",str[j]);
+           
+
+        //  }
+        //  break;
+        // }
+        if(i==count)end=len;
+        else
         end=space[i];
         // if(i==strlen(space)){
         //     for(int j=start;j<strlen(space);j++){
@@ -42,6 +52,7 @@ int main(){
          }
          start=end+1;
          printf("\n");
+         
     }
     // printf("%s",str);
     // for(int i=0;i<100;i++){
@@ -58,7 +69,7 @@ int main(){
         if(str[i]==' ') *(str+i)='\n';//change ' ' to '\n' 
 
     }*/
-    printf("%s",str);
+    
     // for(int i=0;i<100;i++){
     //     if(str[i]!='\0') printf("%c",str[i]);
 
