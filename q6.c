@@ -40,6 +40,7 @@ int main(){
         // {
         // for(int j=start;j<end;j++){
         //     printf("%c",str[j]);
+        
         //     start=end+1;
 
         // }

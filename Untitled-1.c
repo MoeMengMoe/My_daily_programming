@@ -24,10 +24,19 @@ int vowel(char str[]){
     return count;
 }
 int main(){
-    char str[100];
+    // char str[100];
 
-    scanf("%s",str);
-    printf("%d",vowel(str));
+    // scanf("%s",str);
+    // printf("%d",vowel(str));
+    int x=1;
+    switch(x){
+        default:
+        printf("2");
+        break;
+        case 1:
+        printf("1");
+        break;
+    }
 
 
 }
