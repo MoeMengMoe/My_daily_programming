@@ -8,7 +8,7 @@ typedef struct ListNode {
     struct ListNode *next; 
 } ListNode;
 
-/* 构造函数 */
+
 ListNode *newListNode(int val) {
     ListNode *node;
     node = (ListNode *) malloc(sizeof(ListNode));

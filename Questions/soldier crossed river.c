@@ -82,7 +82,7 @@ int main() {
     }
 
     
-    long long dp[21][21] = {0};//wrong 
+    long long dp[21][21] = {0};//wrong for int
 
    
     if (location[0][0] == 1) {
